@@ -1,0 +1,13 @@
+print_function
+os
+rospy
+cv2
+threading
+pickle
+face_recognition
+sensor_msgs.msg 
+cv_bridge 
+qt_nuitrack_app.msg 
+numpy 
+cvzone
+firebase_admin
