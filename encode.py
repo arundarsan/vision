@@ -2,12 +2,6 @@ import os
 import pickle
 import face_recognition
 import cv2
-from firebase_admin import *
-cred = credentials.Certificate("serviceAccountKey.json")
-firebase_admin.initialize_app(cred , {
-    'databaseURL' : 'https://face-recognition-36ef1-default-rtdb.firebaseio.com',
-    'storageBucket' : 'face-recognition-36ef1.appspot.com'
-    })
 participantfolderPath = 'resources'
 participantknownPersonListPath = os.listdir(participantfolderPath)
 participantknownPersonList = []
