@@ -1,5 +1,4 @@
 print_function
-os
 rospy
 cv2
 threading
