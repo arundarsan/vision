@@ -9,12 +9,12 @@ firebase_admin.initialize_app(cred , {
 ref = db.reference('database-1')
 data = {
         '1234': {
-                    'name': 'elon',
+                    'name': 'Pejman',
                     'age' : '23'
 
             },
         '2345' : {
-                    'name': 'rebert',
+                    'name': 'Immanuel',
                     'age' : '23'
             },
         '777' : {
